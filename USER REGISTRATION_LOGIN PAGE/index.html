@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>USER REGISTRATOIN PAGE</title>
+<link rel="stylesheet" type="text/css" href="css/user.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" href="/images/symbol.jpeg">
+</head>
+
+<body>
+    <marquee right style="font-size: 30px; color:red;">Fill &nbsp; &nbsp;Registration&nbsp;&nbsp; Form</marquee>
+    <div class="container">
+                <img src="images/symbol.jpeg" width="10%" height="10%">
+
+    <div class="form">
+        <h3 style="float: left;color: red;font-size:15px;">*Please fill Correct details</h3><br><br>
+        <h2><center>Registration Page</center></h2>
+        
+        <form action="register.php" method="post">
+            <label>Enter Fullname</label><br>
+            <input type="text" name="firstname" placeholder="Enter your First name" required><br><br>
+            <label> Enter Lastname</label><br>
+            <input type="text" name="lastname" placeholder="Enter your lastname" required><br><br>
+              <label> Enter Email</label><br>
+            <input type="email"  placeholder="Enter Email-id" name="email" required><br><br>
+              <label>Enter Phone No</label><br>
+            <input type="text" name="contact" placeholder="Enter your phone no" required><br><br>
+             <label>Create Password</label><br>
+            <input type="password" name="password" placeholder="Create your password(atleast length 8)" required minlength="8"><br><br>
+        
+        <input type="submit" name="register" value="REGISTER / SIGN UP"  style="background-color:green;color: white;">
+            
+        <p>Already registered?<a href="login.html">LOGIN</a></p>
+        
+        
+        </form>
+        </div>
+    
+    </div>
+    
+
+    </body>    
+
+</html>

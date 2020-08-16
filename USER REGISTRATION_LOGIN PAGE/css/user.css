@@ -1,0 +1,73 @@
+body{  
+    
+     background-image:url("../images/reg.jpg");
+    background-size:cover;
+    height:100%;
+    
+}
+.container img
+{   float:right;
+    width:20%;
+    height:15%;
+    margin-right:20%;
+    margin-top: 10%;
+   
+}
+.form
+{
+    padding:20px;
+    text-align: center;
+    margin-top:5%;
+    margin-left:15%;
+    width:30%;
+    background-color:black;
+    opacity:90%;
+    border:1px solid skyblue;
+    border-radius:25px;
+    color: white;
+    
+}
+.form label
+{
+    float:left;
+    margin-left:25%;
+}
+.form h2
+{
+    font-size:30px;   
+    color:beige;
+}
+.form input,textarea
+{  height:30px;
+    position:relative;
+    color: white;
+    width:200px;
+    background-color:lightblue;
+}
+
+
+@media screen and (max-width:768px)
+{  body
+    {
+        backface-visibility: visible;
+    }
+
+    .form
+    {  
+        margin: 4px;
+        margin-bottom:20px;
+        width:auto;
+        opacity: 100%;
+    }
+    
+ .container img
+{   opacity:100%;
+    width:15%;
+    height:18%;
+    margin-right:8%;
+    margin-top: 10%;
+   
+}
+}
+
+
